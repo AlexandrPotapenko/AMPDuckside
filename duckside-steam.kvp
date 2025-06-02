@@ -17,7 +17,7 @@ App.HasWritableConsole=false
 App.DisplayName=Duckside Steam
 App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}}
 App.WindowsCommandLineArgs=
-App.CommandLineParameterFormat=-{0} "{1}"
+App.CommandLineParameterFormat=-{0}="{1}"
 App.CommandLineParameterDelimiter= 
 App.RapidStartup=false
 App.ApplicationReadyMode=Immediate
