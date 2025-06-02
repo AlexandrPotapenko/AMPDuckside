@@ -15,7 +15,7 @@ App.AdminMethod=PinballWizard
 App.HasReadableConsole=true
 App.HasWritableConsole=false
 App.DisplayName=Duckside Steam
-App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}} --bind [{{$ApplicationIPBinding}}]:{{$ServerPort}}
+App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}} --bind [{{$ApplicationIPBinding}}]:{{$ServerPort}} -port={GenericModule.App.Ports.$ApplicationPort1} -BeaconPort={{$ApplicationPort1}}
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter= 
