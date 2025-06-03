@@ -15,7 +15,7 @@ App.AdminMethod=PinballWizard
 App.HasReadableConsole=true
 App.HasWritableConsole=false
 App.DisplayName=Duckside Console
-App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}}
+App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}} -Multiprocess -MultiprocessSaveConfig -serverplatform=PS5XSXCrossPlay -NoEAC
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0}="{1}"
 App.CommandLineParameterDelimiter= 
@@ -72,13 +72,13 @@ Meta.OS=3
 Meta.ConfigManifest=duckside-consoleconfig.json
 Meta.MetaConfigManifest=duckside-consolemetaconfig.json
 Meta.ConfigRoot=duckside-console.kvp
-App.RootDir=./duckside-console/
+App.RootDir=./duckside-server/
 Meta.DisplayImageSource=steam:2682580
-App.BaseDirectory=./duckside-console/2682580/
+App.BaseDirectory=./duckside-server/2682580/
 App.WorkingDir=2682580
 App.ExecutableWin=2690320\DucksideServer.exe
 App.ExecutableLinux=2690320/Duckside/Binaries/Linux/DucksideServer-Linux-Shipping
-App.LinuxCommandLineArgs=-Multiprocess -MultiprocessSaveConfig -serverplatform=PS5XSXCrossPlay -NoEAC
+App.LinuxCommandLineArgs=
 App.Ports=@IncludeJson[duckside-consoleports.json]
 App.UpdateSources=@IncludeJson[duckside-consoleupdates.json]
 App.EnvironmentVariables={"LD_LIBRARY_PATH": "{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%", "WINEPREFIX": "{{$FullRootDir}}.wine", "WINEARCH": "win64", "WINEDEBUG": "-all"}
