@@ -34,36 +34,6 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Port",
-        "Category": "Server Settings",
-        "Description": "port",
-        "Keywords": "port",
-        "FieldName": "$MainGamePort",
-        "InputType": "number",
-        "IsFlagArgument": false,
-        "ParamFieldName": "port",
-        "IncludeInCommandLine": false,
-        "Suffix": "",
-        "Hidden": true,
-        "SkipIfEmpty": false,
-        "EnumValues": {}
-    },
-    {
-        "DisplayName": "Beacon Port",
-        "Category": "Server Settings",
-        "Description": "",
-        "Keywords": "beacon,port",
-        "FieldName": "$BeaconPort",
-        "InputType": "number",
-        "IsFlagArgument": false,
-        "ParamFieldName": "BeaconPort",
-        "IncludeInCommandLine": false,
-        "Suffix": "",
-        "Hidden": true,
-        "SkipIfEmpty": false,
-        "EnumValues": {}
-    },
-    {
         "DisplayName": "isofficialserver",
         "Category": "Server Settings",
         "Description": "",
