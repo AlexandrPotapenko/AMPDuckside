@@ -41,7 +41,7 @@
         "FieldName": "ApplicationPort1",
         "InputType": "number",
         "IsFlagArgument": false,
-        "ParamFieldName": "MainGamePort",
+        "ParamFieldName": "port",
         "IncludeInCommandLine": true,
         "Suffix": "",
         "Hidden": true,
