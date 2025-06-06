@@ -32,23 +32,23 @@
         "SkipIfEmpty": false,
         "EnumValues": {}
     },
-	{
-		"DisplayName": "Official Server Type",
-		"Category": "Duckside:stadia_controller",
-		"Description": "",
-		"Keywords": "isofficialserver",
-		"FieldName": "isofficialserver",	
-		"ParamFieldName": "isofficialserver",
-		"IncludeInCommandLine": true,
-		"InputType": "enum",
-		"Hidden": false,
-		"EnumValues": {
-		  "0": "Community",
-		  "1": "Official",
-		  "2": "Beta"
-		},
-		"DefaultValue": "1"
-	},
+    {
+        "DisplayName": "isofficialserver",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "isofficialserver",
+        "FieldName": "isofficialserver",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "isofficialserver",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "1",
+        "Placeholder": "1",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
     {
         "DisplayName": "Server Mode",
         "Category": "Duckside:stadia_controller",
