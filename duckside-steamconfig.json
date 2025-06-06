@@ -33,6 +33,21 @@
         "SkipIfEmpty": false,
         "EnumValues": {}
     },
+	{
+        "DisplayName": "Port",
+        "Category": "Server Settings",
+        "Description": "port",
+        "Keywords": "port",
+        "FieldName": "ApplicationPort1",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MainGamePort",
+        "IncludeInCommandLine": true,
+        "Suffix": "",
+        "Hidden": true,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
     {
         "DisplayName": "isofficialserver",
         "Category": "Server Settings",
