@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "Server id",
-        "Category": "Server Settings",
+        "Category": "Duckside:stadia_controller",
         "Description": "",
         "Keywords": "server,id",
         "FieldName": "serverid",
@@ -9,7 +9,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "serverid",
         "IncludeInCommandLine": true,
-        "DefaultValue": "amp-{{randomdigits(8)}}",
+        "DefaultValue": "amp",
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
@@ -17,7 +17,7 @@
     },
     {
         "DisplayName": "Steam Server Name",
-        "Category": "Server Settings",
+        "Category": "Duckside:stadia_controller",
         "Description": "",
         "Keywords": "steam,server,name",
         "FieldName": "SteamServerName",
@@ -32,9 +32,24 @@
         "SkipIfEmpty": false,
         "EnumValues": {}
     },
+	{
+        "DisplayName": "Player Limit",
+        "Category": "Duckside:stadia_controller",
+        "Description": "Sets the maximum number of players allowed on the server at one time",
+        "Keywords": "max,maximum,players,limit,maxplayers",
+        "FieldName": "$MaxUsers",
+        "InputType": "number",
+        "MinValue": "1",
+        "ParamFieldName": "maxplayers",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "20",
+        "Placeholder": "20",
+        "Suffix": "players",
+        "EnumValues": {}
+    },
     {
         "DisplayName": "Port",
-        "Category": "Server Settings",
+        "Category": "Duckside:stadia_controller",
         "Description": "port",
         "Keywords": "port",
         "FieldName": "port",
@@ -42,8 +57,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "port",
         "IncludeInCommandLine": true,
-        "DefaultValue": "25001",
-        "Placeholder": "25001",
+        "DefaultValue": "{{$MainGamePort}}",
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
@@ -51,7 +65,7 @@
     },
     {
         "DisplayName": "Beacon Port",
-        "Category": "Server Settings",
+        "Category": "Duckside:stadia_controller",
         "Description": "",
         "Keywords": "beacon,port",
         "FieldName": "BeaconPort",
@@ -59,8 +73,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "BeaconPort",
         "IncludeInCommandLine": true,
-        "DefaultValue": "25051",
-        "Placeholder": "25051",
+        "DefaultValue": "$BeaconPort",
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
@@ -68,7 +81,7 @@
     },
     {
         "DisplayName": "isofficialserver",
-        "Category": "Server Settings",
+        "Category": "Duckside:stadia_controller",
         "Description": "",
         "Keywords": "isofficialserver",
         "FieldName": "isofficialserver",
@@ -85,7 +98,7 @@
     },
     {
         "DisplayName": "Server Mode",
-        "Category": "Server Settings",
+        "Category": "Duckside:stadia_controller",
         "Description": "",
         "Keywords": "mode",
         "FieldName": "mode",
@@ -102,7 +115,7 @@
     },
     {
         "DisplayName": "Server password",
-        "Category": "Server Settings",
+        "Category": "Duckside:stadia_controller",
         "Description": "",
         "Keywords": "password",
         "FieldName": "password",
@@ -119,7 +132,7 @@
     },
     {
         "DisplayName": "Player Max Count",
-        "Category": "Server Settings",
+        "Category": "Duckside:stadia_controller",
         "Description": "",
         "Keywords": "playersmaxcount",
         "FieldName": "playersmaxcount",
