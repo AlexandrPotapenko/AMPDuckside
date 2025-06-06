@@ -38,7 +38,7 @@
         "Description": "",
         "Keywords": "isofficialserver",
         "FieldName": "isofficialserver",
-        "InputType": "checkbox",
+        "InputType": "number",
         "IsFlagArgument": false,
         "ParamFieldName": "isofficialserver",
         "IncludeInCommandLine": true,
@@ -46,11 +46,7 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {
-			  "0": "Community server",
-			  "1": "Official Server"
-			  "2": "Beta"
-			}
+        "EnumValues": {}
     },
     {
         "DisplayName": "Server Mode",
