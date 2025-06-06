@@ -48,6 +48,22 @@
         "SkipIfEmpty": false,
         "EnumValues": {}
     },
+	{
+			"DisplayName": "Single choice option",
+			"Description": "The user can select one of the following options",
+			"FieldName": "beverage",
+			"Category": "Dietary Options",
+			"ParamFieldName": "beverage",
+			"IncludeInCommandLine": true,
+			"InputType": "enum",
+			"EnumValues": {
+			  "0": "Water",
+			  "10": "Cola",
+			  "20": "Apple Juice",
+			  "999": "Other"
+			},
+			"DefaultValue": "10"
+	},
     {
         "DisplayName": "Server Mode",
         "Category": "Duckside:stadia_controller",
