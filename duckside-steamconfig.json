@@ -2,6 +2,7 @@
     {
         "DisplayName": "Steam Server Name",
         "Category": "Duckside:stadia_controller",
+		"Subcategory": "Server:dns:1",
         "Description": "",
         "Keywords": "steam,server,name",
         "FieldName": "SteamServerName",
@@ -19,6 +20,7 @@
 	{
         "DisplayName": "Server id",
         "Category": "Duckside:stadia_controller",
+		"Subcategory": "Server:dns:1",
         "Description": "",
         "Keywords": "server,id",
         "FieldName": "serverid",
@@ -35,6 +37,7 @@
 	{
         "DisplayName": "Official Server Type",
         "Category": "Duckside:stadia_controller",
+		"Subcategory": "Server:dns:1",
         "Description": "",
         "Keywords": "isofficialserver",
         "FieldName": "isofficialserver",
@@ -68,6 +71,7 @@
     {
         "DisplayName": "Server password",
         "Category": "Duckside:stadia_controller",
+		"Subcategory": "Server:dns:1",
         "Description": "",
         "Keywords": "password",
         "FieldName": "password",
@@ -85,6 +89,7 @@
 	 {
         "DisplayName": "Port",
         "Category": "Duckside:stadia_controller",
+		"Subcategory": "Gameplay:joystick:2",
         "Description": "port",
         "Keywords": "port",
         "FieldName": "port",
@@ -101,6 +106,7 @@
     {
         "DisplayName": "Beacon Port",
         "Category": "Duckside:stadia_controller",
+		"Subcategory": "Gameplay:joystick:2",
         "Description": "",
         "Keywords": "beacon,port",
         "FieldName": "BeaconPort",
@@ -117,6 +123,7 @@
     {
         "DisplayName": "Player Max Count",
         "Category": "Duckside:stadia_controller",
+		"Subcategory": "Server:dns:1",
         "Description": "",
         "Keywords": "playersmaxcount",
         "FieldName": "playersmaxcount",
