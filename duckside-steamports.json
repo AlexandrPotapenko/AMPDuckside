@@ -8,7 +8,7 @@
     },
     {
         "Protocol": "Both",
-        "Port": "25100",
+        "Port": "25001",
         "Name": "BeaconPort",
         "Description": "Port used for main game traffic",
         "Ref": "BeaconPort"
