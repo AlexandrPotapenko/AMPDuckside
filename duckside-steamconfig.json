@@ -9,7 +9,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "serverid",
         "IncludeInCommandLine": true,
-        "DefaultValue": "amp",
+        "DefaultValue": "amp $MainGamePort",
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
