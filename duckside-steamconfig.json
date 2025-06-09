@@ -1,21 +1,5 @@
 [
     {
-        "DisplayName": "Server id",
-        "Category": "Duckside:stadia_controller",
-        "Description": "",
-        "Keywords": "server,id",
-        "FieldName": "serverid",
-        "InputType": "text",
-        "IsFlagArgument": false,
-        "ParamFieldName": "serverid",
-        "IncludeInCommandLine": true,
-        "DefaultValue": "amp $MainGamePort",
-        "Suffix": "",
-        "Hidden": false,
-        "SkipIfEmpty": false,
-        "EnumValues": {}
-    },
-    {
         "DisplayName": "Steam Server Name",
         "Category": "Duckside:stadia_controller",
         "Description": "",
@@ -32,22 +16,37 @@
         "SkipIfEmpty": false,
         "EnumValues": {}
     },
-    {
-        "DisplayName": "isofficialserver",
+	{
+        "DisplayName": "Server id",
         "Category": "Duckside:stadia_controller",
         "Description": "",
-        "Keywords": "isofficialserver",
-        "FieldName": "isofficialserver",
-        "InputType": "number",
+        "Keywords": "server,id",
+        "FieldName": "serverid",
+        "InputType": "text",
         "IsFlagArgument": false,
-        "ParamFieldName": "isofficialserver",
+        "ParamFieldName": "serverid",
         "IncludeInCommandLine": true,
-        "DefaultValue": "1",
-        "Placeholder": "1",
+        "DefaultValue": "amp",
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
         "EnumValues": {}
+    },
+	{
+        "DisplayName": "Official Server Type",
+        "Category": "Duckside:stadia_controller",
+        "Description": "",
+        "Keywords": "isofficialserver",
+        "FieldName": "isofficialserver",
+        "InputType": "enum",
+        "ParamFieldName": "isofficialserver",
+		"IncludeInCommandLine": true,
+        "DefaultValue": "1",
+        "EnumValues": {
+            "0": "Community",
+            "1": "Official",
+            "2": "Beta Official"
+        }
     },
     {
         "DisplayName": "Server Mode",
@@ -83,20 +82,7 @@
         "SkipIfEmpty": false,
         "EnumValues": {}
     },
-	{
-        "DisplayName": "Server Branch TEST",
-        "Category": "Duckside:stadia_controller",
-        "Description": "Sets the server branch to install. Update the server after switching branches",
-        "Keywords": "server,branch,depot",
-        "FieldName": "ServerBranch",
-        "InputType": "enum",
-        "ParamFieldName": "ServerBranch",
-        "DefaultValue": "1",
-        "EnumValues": {
-            "0": "Public (default)",
-            "1": "Preview"
-        }
-    },
+	
     {
         "DisplayName": "Player Max Count",
         "Category": "Duckside:stadia_controller",
