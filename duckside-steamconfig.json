@@ -86,11 +86,11 @@
         "SkipIfEmpty": false,
         "EnumValues": {}
     },
-	 {
-        "DisplayName": "Port",
+	{
+        "DisplayName": "Main Game Port",
         "Category": "Duckside:stadia_controller",
 		"Subcategory": "Gameplay:joystick:2",
-        "Description": "port",
+        "Description": "Use this field to override default assigned port",
         "Keywords": "port",
         "FieldName": "port",
         "InputType": "number",
@@ -107,7 +107,7 @@
         "DisplayName": "Beacon Port",
         "Category": "Duckside:stadia_controller",
 		"Subcategory": "Gameplay:joystick:2",
-        "Description": "",
+        "Description": "Use this field to override default assigned port, should be +1 to Main Game Port",
         "Keywords": "beacon,port",
         "FieldName": "BeaconPort",
         "InputType": "number",

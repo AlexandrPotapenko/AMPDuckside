@@ -9,13 +9,13 @@ Meta.DockerRequired=False
 Meta.ContainerPolicy=Supported
 Meta.ContainerPolicyReason=
 Meta.Prerequsites=[]
-Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
+Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$MainGamePort}
 Meta.AppConfigId=b4fab455-f88f-49ad-93b4-0773598a3db0
 App.AdminMethod=PinballWizard
 App.HasReadableConsole=true
 App.HasWritableConsole=false
 App.DisplayName=Duckside Console
-App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}} -Multiprocess -MultiprocessSaveConfig -serverplatform=PS5XSXCrossPlay -NoEAC
+App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}} -Multiprocess -MultiprocessSaveConfig -port={{$MainGamePort}} -BeaconPort={{$BeaconPort}} -NoEAC
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0}="{1}"
 App.CommandLineParameterDelimiter= 
@@ -74,8 +74,8 @@ Meta.MetaConfigManifest=duckside-consolemetaconfig.json
 Meta.ConfigRoot=duckside-console.kvp
 App.RootDir=./duckside-server/
 Meta.DisplayImageSource=steam:2682580
-App.BaseDirectory=./duckside-server/2682580/
-App.WorkingDir=2682580
+App.BaseDirectory=./duckside-server/2690320/
+App.WorkingDir=2690320
 App.ExecutableWin=2690320\DucksideServer.exe
 App.ExecutableLinux=2690320/Duckside/Binaries/Linux/DucksideServer-Linux-Shipping
 App.LinuxCommandLineArgs=
