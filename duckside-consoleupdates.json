@@ -1,11 +1,11 @@
 [
     {
-        "UpdateStageName": "Download consoles-release",
+        "UpdateStageName": "Download consoles-dev",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "2690320",
         "UpdateSourceArgs": "2682580",
-        "UpdateSourceVersion": "consoles-release",
+        "UpdateSourceVersion": "consoles-dev",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "ForceDownloadPlatform": "Linux",
