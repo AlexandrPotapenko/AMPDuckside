@@ -171,23 +171,5 @@
             "consoles-dev": "consoles-dev",
             "consoles-release": "consoles-release"
         }
-    },
-	{
-        "DisplayName": "Additional game port to test",
-        "Category": "Duckside:stadia_controller",
-		"Subcategory": "Gameplay:joystick:2",
-        "Description": "",
-        "Keywords": "additionalport",
-        "FieldName": "additionalport",
-        "InputType": "number",
-        "IsFlagArgument": false,
-        "ParamFieldName": "additionalport",
-        "IncludeInCommandLine": true,
-        "DefaultValue": "{{MainGamePort}}",
-        "Suffix": "",
-        "Hidden": false,
-        "SkipIfEmpty": true,
-        "EnumValues": {}
-    },
-	
+    }
 ]
