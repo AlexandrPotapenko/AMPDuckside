@@ -154,5 +154,24 @@
         "Hidden": false,
         "SkipIfEmpty": false,
         "EnumValues": {}
+    },
+	{
+        "DisplayName": "Server Branch",
+        "Category": "Updates",
+        "Subcategory": "Steam Downloads:download",
+        "Description": "Sets the server branch to install. NOTE: Update the server after switching branches!",
+        "Keywords": "server,branch",
+        "FieldName": "ServerBranch",
+        "InputType": "enum",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerBranch",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "consoles-dev",
+        "EnumValues": {
+            "consoles-dev": "consoles-dev",
+            "consoles-release": "consoles-release"
+        }
     }
+
+	
 ]
