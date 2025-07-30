@@ -166,10 +166,11 @@
         "IsFlagArgument": false,
         "ParamFieldName": "ServerBranch",
         "IncludeInCommandLine": false,
-        "DefaultValue": "consoles-dev",
+        "DefaultValue": "consoles_release",
         "EnumValues": {
             "consoles-dev": "consoles-dev",
-            "consoles-release": "consoles-release"
+            "consoles-release": "consoles-release",
+			"consoles-release": "consoles_release"
         }
     }
 ]
