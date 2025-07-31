@@ -71,19 +71,18 @@
     {
         "DisplayName": "Server Mode",
         "Category": "Duckside:stadia_controller",
+	"Subcategory": "Server:dns:1",
         "Description": "",
         "Keywords": "mode",
         "FieldName": "mode",
-        "InputType": "text",
-        "IsFlagArgument": false,
+        "InputType": "enum",
         "ParamFieldName": "mode",
         "IncludeInCommandLine": true,
-        "DefaultValue": "norelease",
-        "Placeholder": "norelease",
-        "Suffix": "",
-        "Hidden": true,
-        "SkipIfEmpty": false,
-        "EnumValues": {}
+        "DefaultValue": "release",
+        "EnumValues": {
+		"release": "release",
+        	"norelease": "norelease"
+	}
     },
     {
         "DisplayName": "Server password",
