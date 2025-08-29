@@ -15,7 +15,7 @@ App.AdminMethod=PinballWizard
 App.HasReadableConsole=true
 App.HasWritableConsole=false
 App.DisplayName=Duckside Console
-App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}} -Multiprocess -MultiprocessSaveConfig -port={{$MainGamePort}} -BeaconPort={{$BeaconPort}} -NoEAC -testkit
+App.CommandLineArgs={{$PlatformArgs}} {{$FormattedArgs}} -Multiprocess -MultiprocessSaveConfig -port={{$MainGamePort}} -BeaconPort={{$BeaconPort}} -NoEAC
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0}="{1}"
 App.CommandLineParameterDelimiter= 
