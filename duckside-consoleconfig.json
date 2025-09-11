@@ -168,7 +168,8 @@
         "DefaultValue": "consoles-release",
         "EnumValues": {
             "consoles-dev": "consoles-dev",
-            "consoles-release": "consoles-release"
+            "consoles-release": "consoles-release",
+			"consoles-release": "consoles_release_official"
         }
     }
 ]
